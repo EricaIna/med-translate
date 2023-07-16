@@ -88,3 +88,10 @@ document.addEventListener("click", (e) => {
     modal.style.display = "none";
   }
 });
+
+// Language change
+const btnEn = document.getElementById("toggleButton");
+
+btnEn.addEventListener("click", () => {
+  window.location.href = "english/index.html";
+});
