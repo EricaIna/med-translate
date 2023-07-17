@@ -13,9 +13,9 @@ body {
 }
 
 body section {
-  margin: 0 auto;
-  margin-top: 192px;
-  padding: 0 24px;
+  margin: 50px auto;
+  /* margin-top: 192px; */
+  padding: 60px 24px;
   width: 90%;
   max-width: 1024px;
 }
@@ -34,6 +34,7 @@ body h3 {
   position: fixed;
   width: 100%;
   z-index: 99;
+  height: 60px;
 }
 .header-list {
   display: flex;
@@ -94,6 +95,10 @@ body h3 {
   text-decoration: underline solid #ee7b30;
   text-decoration-thickness: 5px;
 }
+.coloring {
+  color: #ee7b30;
+  font-weight: bold;
+}
 
 h2 {
   font-size: 60px;
@@ -143,8 +148,6 @@ h2 {
   transform: scale(1.2);
   transition: all 0.3s;
 }
-
-/* <section service> */
 
 .service-container {
   margin: 30px;
@@ -251,12 +254,16 @@ h2 {
   transition: transform 0.3s;
 }
 
-/* footer  */
-
+/* section contact */
 .contact {
-  padding: 50px 0;
   background-color: #fae3c5;
   margin-top: 100px;
+}
+.contact h5 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: normal;
+  margin: 30px auto;
 }
 .contact-btn {
   text-align: center;
@@ -359,16 +366,11 @@ h2 {
   transition: 0.5s;
 }
 
-.contact h5 {
-  text-align: center;
-  font-size: 20px;
-  font-weight: normal;
-  margin-bottom: 20px;
-}
-
+/* footer  */
 .footer-bottom {
   display: flex;
   justify-content: space-around;
+  align-items: baseline;
   background-color: #78726a;
   padding: 50px 0;
   color: #fffef3;
@@ -380,9 +382,11 @@ h2 {
 }
 .footer-box01 h4 {
   font-size: 25px;
+  margin-bottom: 20px;
 }
 .footer-box02 ul {
   list-style-type: none;
+  line-height: 3rem;
 }
 .footer-box02 li {
   margin: 10px auto;
@@ -502,6 +506,7 @@ h2 {
   .footer-bottom {
     flex-direction: column;
     text-align: center;
+    align-items: center;
   }
 
   .footer-box01 {
@@ -509,6 +514,7 @@ h2 {
   }
   .footer-box02 li {
     padding: 20px;
+    line-height: 1rem;
   }
 
   /*  Hamburger icon */

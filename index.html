@@ -17,10 +17,10 @@
       <button id="toggleButton">English</button>
       <nav>
         <ul class="header-list">
-          <li><a href="index.html#aboutus">私たちについて</a></li>
-          <li><a href="index.html#service">サービス</a></li>
-          <li><a href="index.html#staff">スタッフ</a></li>
-          <li><a href="index.html#contact">サービスを利用する</a></li>
+          <li><a href="#aboutus">私たちについて</a></li>
+          <li><a href="#service">サービス</a></li>
+          <li><a href="#staff">スタッフ</a></li>
+          <li><a href="#contact">サービスを利用する</a></li>
         </ul>
       </nav>
       <div class="header-hamburger" id="js-hamburger">
@@ -212,13 +212,13 @@
       </div>
     </section>
     
-      <div class="contact" id="contact">
+      <section class="contact" id="contact">
         <h5>お困りの際はお気軽にご相談ください</h5>
         <div class="contact-btn">
           <a>サービスを利用する</a>
           <a id="modalOpen">メールで問い合わせる</a>
         </div>
-      </div>
+      </section>
       <div id="modal">
         <div class="modal-content">
           <div class="modal-header">
@@ -260,7 +260,7 @@
     </footer>
     <script src="script.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
-    <script>
+    <!-- <script>
       ScrollReveal({
         reset: true,
         distance: "60px",
@@ -276,7 +276,7 @@
         origin: "left",
       });
       ScrollReveal().reveal(
-        ".about ,h2,.sub-title,.customer-container,.footer,.contact",
+        ".about,.sub-title,.customer-container,.footer,.contact",
         {
           duration: 3000,
         }
@@ -286,6 +286,6 @@
         origin: "top",
         interval: 300,
       });
-    </script>
+    </script> -->
   </body>
 </html>
