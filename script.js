@@ -93,5 +93,5 @@ document.addEventListener("click", (e) => {
 const btnEn = document.getElementById("toggleButton");
 
 btnEn.addEventListener("click", () => {
-  window.location.href = "english/index.html";
+  window.location.href = "english/en.html";
 });
