@@ -595,49 +595,4 @@ h2 {
     width: 100%;
     transition-duration: 0.2s;
   }
-  /* .swiper {
-    width: 300px;
-  }
-  .slide-box p {
-    line-height: 1.3;
-  } */
-  /* .swiper-button-next::after,
-  .swiper-button-prev::after {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-  } */
 }
-
-/* english */
-/* .swiper {
-  width: 70%;
-  height: 500px;
-  margin: 50px auto;
-  text-align: center;
-  position: relative;
-}
-.slide-box {
-  width: 80%;
-  text-align: center;
-  margin: 0 auto;
-}
-.swiper-slide {
-  width: 80%;
-  margin: 0 auto;
-}
-
-.swiper-button-next::after,
-.swiper-button-prev::after {
-  color: #fff;
-  font-size: 14px;
-}
-.swiper-container .swiper-button-prev {
-  left: -40px;
-}
-.swiper-container .swiper-button-next {
-  right: -40px;
-}
-.swiper-container .swiper-pagination {
-  bottom: -30px !important;
-} */
