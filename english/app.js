@@ -100,3 +100,17 @@ const btnEn = document.getElementById("toggleButton");
 btnEn.addEventListener("click", () => {
   window.location.href = "../index.html";
 });
+
+//nav scroll color change
+$(document).ready(function () {
+  $(window).scroll(function () {
+    var scrollHeight = $(window).scrollTop();
+    var windowHeight = $(window).height();
+
+    if (scrollHeight < windowHeight) {
+      $(".header-list a").css("color", "rgb(255, 254, 243)");
+    } else {
+      $(".header-list a").css("color", "#333");
+    }
+  });
+});
